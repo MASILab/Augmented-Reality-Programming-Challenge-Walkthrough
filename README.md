@@ -4,7 +4,7 @@
 <h2>What is the Engineering Design Process?</h2>
 <p>The engineering design process is a process engineering teams use to solve problems. There are several steps involved, and the steps are <b>iterative</b>, meaning that steps are repated as many times as needed. The steps of the engineering design process are: ask, research, imagine, plan, create, test, and improve. You can learn more about the engineering design process <a href="https://www.teachengineering.org/design/designprocess">here</a>.</p>
 
-<img src="https://www.teachengineering.org/Images/edpHub/EDPHub_Graphic.png" alt="The engineering design process" width = "50%">
+<img src="https://www.teachengineering.org/Images/edpHub/EDPHub_Graphic.png" alt="The engineering design process" width="50%">
 
 <h2>Materials, Download & Installation</h2>
 <p>To begin working on this project, you will need a computer to access certain software. You will also need an <a href="http://shop.orbbec3d.com/Astra-Pro_p_35.html">Orbbec Astra Pro Camera</a>. The following intructions provide a step by step walkthrough on the download/installation process for the software you'll be using.</p>
@@ -17,8 +17,15 @@
 </ul>
 
 <h3>Download Unity v. 2018.2.9(or later)</h3>
-<p>Unity is where we will build our demos. It has the ability to create screens and a variety of other useful features. You can download Unity <a href="https://store.unity.com/#plans-individual">here</a>. On the 'Individual' tab, you can select the student or personal plan.
- 
+<p>Unity is where we will build our demos. It has the ability to create screens and a variety of other useful features. You can download Unity <a href="https://store.unity.com/#plans-individual">here</a>. On the 'Individual' tab, you can select the student or personal plan. For the purposes of this walkthrough, we'll select the 'Personal' plan.</p>
+<img src="https://user-images.githubusercontent.com/39998983/96674168-c2f19380-132d-11eb-8676-c42474ce884d.png" alt="Unity installation landing page" width="60%">
+
+<p>Next, select the 'Start Here' button.</p>
+<img src="https://user-images.githubusercontent.com/39998983/96674599-c5082200-132e-11eb-9a42-00bf61260917.png" alt="Unity installation page" width="60%">
+
+<p>Lastly, select the "Agree and Download" button. This will start the download and walk you through the setup process for your particular device.</p>
+<img src="https://user-images.githubusercontent.com/39998983/96674627-d6512e80-132e-11eb-8b38-cab5d00c7ef3.png" alt="Unity terms page" width="60%">
+
 
 
 
