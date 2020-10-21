@@ -1,5 +1,5 @@
 # Maker Challenge: Augmented Reality Programming Challenge
-<p>In this maker challenge, students will explore augmented reality (AR) physiology programs, including muscle and bone overlays and a body tracking recording program, using Unity and Microsoft Visual Studio. Using the engineering design process, students will modify, enhance, and redesign the program to meet a real-world need.</p>
+<p>In this maker challenge, students will use Unity and Microsoft Visual Studio to explore augmented reality(AR) programs. Using the engineering design process, students will modify, enhance, and redesign one of the AR programs to meet a real-world need. Throughout this process, students will gain valuable coding skills by using the C# coding language to implement their changes. The following is a walkthrough that will provide students within an introduction to the engineering design process, show them how to navigate the AR demos, and provide resources for coding with C#. This walkthrough will also provide notes on good coding practices, and a rubric through which students can assess their work.</p>
 
 <h2>What is the Engineering Design Process?</h2>
 <p>The engineering design process is a process engineering teams use to solve problems. There are several steps involved, and the steps are <b>iterative</b>, meaning that steps are repated as many times as needed. The steps of the engineering design process are: ask, research, imagine, plan, create, test, and improve. You can learn more about the engineering design process <a href="https://www.teachengineering.org/design/designprocess">here</a>.</p>
@@ -10,7 +10,7 @@
 <p>To begin working on this project, you will need a computer to access certain software. You will also need an <a href="http://shop.orbbec3d.com/Astra-Pro_p_35.html">Orbbec Astra Pro Camera</a>. The following intructions provide a step by step walkthrough on the download/installation process for the software you'll be using.</p>
 
 <h3>Microsoft Visual Studio 2017(or later)</h3>
-<p>This is where you will build your code. Micrsoft Visual Studio 2017(or later) is available <a href="https://visualstudio.microsoft.com/free-developer-offers/">here</a>. Once there, click the relevant download according to your operating system. For example, if you have a Windows computer, download Visual Studio Community for windows. You can access more detailed download instructions for each operating system below:</p>
+<p>This is where you will build your code. Micrsoft Visual Studio 2017(or later) is available <a href="https://visualstudio.microsoft.com/free-developer-offers/">here</a>. Once there, click the relevant download according to your operating system. For example, if you have a Windows computer, download Visual Studio Community for Windows. You can access more detailed download instructions for each operating system below:</p>
 <ul>
   <li><a href="https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019">Windows</a></li>
   <li><a href="https://docs.microsoft.com/en-us/visualstudio/mac/installation?view=vsmac-2019"<li>macOS</li></a>
@@ -30,11 +30,80 @@
 <p>Now it's time to choose the demo you would like to work on. There are three main AR Physiology demos to choose from. The <a href="https://github.com/MASILab/AR_Mirror_Muscle_Demo_Clean">Muscle Demo</a>, the <a href="https://github.com/MASILab/AR_Mirror_Bone_Demo_Clean">Bone Demo</a>, and the <a href="https://github.com/MASILab/AR_Mirror_Replay_Demo_Clean">Replay Demo</a>. The muscle demo will allow you to view different muscles within the body, the bone demo will allow you to view different bones within the body, and the replay demo allows you to automatically record and replay your renders. You can explore each demo and begin thinking about what demo you'd like to work on. For example, here's a preview of what the bone demo looks like:</p>
 <img src="https://user-images.githubusercontent.com/39998983/96675662-026daf00-1331-11eb-9612-c037a10bf0e7.png" alt="AR Bone demo preview" width="60%">
 
-<p>To download a demo, click on one of the links above. You can download the demo from it's Github page. Once there, select the "Code" dropdown, then "Download ZIP." Open the file and unzip it once it's downloaded.</p>
-<img src="https://user-images.githubusercontent.com/39998983/96676747-b112ef00-1333-11eb-82cc-0b8b38a90cf1.png" alt="Github download walkthrough" width="60%">
+<p>To download a demo via GitHub, click on one of the demo links. Here they are again:</p>
+<ul>
+  <li><a href="https://github.com/MASILab/AR_Mirror_Muscle_Demo_Clean">Muscle Demo</a></li>
+  <li><a href="https://github.com/MASILab/AR_Mirror_Bone_Demo_Clean">Bone Demo</a></li>
+  <li><a href="https://github.com/MASILab/AR_Mirror_Replay_Demo_Clean">Replay Demo</a></li>
+</ul>
+  
+<p>Once you're at one of the Github pages, select the "Code" dropdown, then "Download ZIP." Open the file and unzip it once it's downloaded.</p>
+<img src="https://user-images.githubusercontent.com/39998983/96676747-b112ef00-1333-11eb-82cc-0b8b38a90cf1.png" alt="Github download walkthrough" width="80%">
 
-<h3>Exploring the Demos in Unity</h3>
-<p>To open a demo in Unity, start by launching unity on your computer.
+<h3>Orbbec Camera Driver</h3>
+<p>Lastly, once you have your <a href="http://shop.orbbec3d.com/Astra-Pro_p_35.html">Orbbec Astra Pro Camera</a>, you'll need to install the Orbbec Camera Driver. You can download the driver <a href="https://orbbec3d.com/develop/">here</a>.</p>
+
+<h2>Warm Up: Exploring the Bone Demo</h2>
+<p>Now that you've got your software downloaded and your camera plugged in, you're ready to explore one of the demos! To open a demo in Unity, start by launching Unity on your computer. Launching Unity should open a Window that looks like the image below. Go ahead and select "Open."</p>
+<img src="https://user-images.githubusercontent.com/39998983/96723925-cd834b80-1374-11eb-9b24-b45f20d2f84b.PNG" alt="Open project in Unity" width="80%">
+
+<p>Next, we'll select the demo we'd like to work with. Make sure you have the <a href="https://github.com/MASILab/AR_Mirror_Bone_Demo_Clean">AR Bone Demo</a> file downloaded. Open this demo by selecting its file.</p>
+<img src="https://user-images.githubusercontent.com/39998983/96725391-72eaef00-1376-11eb-9cc6-c813a2e648f6.PNG" alt="File explorer window" width="80%">
+
+<p>Your screen will look similar to the screen below. To see the demo in action, navigate to the 'Assets' folder towards the bottom left. Within the 'Assets' folder, navigate into the 'Scenes' folder.</p>
+<img src="https://user-images.githubusercontent.com/39998983/96729646-fe667f00-137a-11eb-9ad0-8bb66fe3f9db.PNG" alt="File explorer window in Unity" width="80%">
+
+<p>Now, double click on the "BoneDemo" to open it.</p>
+<img src="https://user-images.githubusercontent.com/39998983/96730080-746ae600-137b-11eb-8fd3-98e041ae5820.PNG" alt="File explorer window in Unity" width="80%">
+
+<p>Navigate over to the "Game" tab and select the play button to start the game! You'll be able to see the bone-overlay on your screen in real time! Try to get the bones from your head to your feet showing by moving so that your whole body is in view. As you move, make observations about what you see.</p>
+<img src="https://user-images.githubusercontent.com/39998983/96731249-a92b6d00-137c-11eb-9988-55055cccc037.PNG" alt="Playing bone demo" width="80%">
+
+<h3>Diving Into the Code</h3>
+<p>Let's take a look at the code for this demo and try adding another bone overlay. Start by opening the "SkeletonViewer." You'll see that a panel opens to the right where you can view what bone images are linked to specific joints.</p>
+<img src="https://user-images.githubusercontent.com/39998983/96733226-d2e59380-137e-11eb-9f04-d95f26c25b51.PNG" alt="Playing bone demo" width="80%">
+<p>The Orbbec camera recognizes each of the following labeled joints.</p>
+<img src="https://user-images.githubusercontent.com/39998983/96734009-b3029f80-137f-11eb-8dd7-6127334e41a1.png" alt="Playing bone demo" width="60%">
+<p>Look in the bottom left panel where you accessed the "Assets" folder. Inside the "Assets" folder, navigate to the "Prefabs" folder, then the "3D_BODY_Bones" folder. Here you can view and add 3D bone overlay images, we'll use one of these images shortly.</p>
+<img src="https://user-images.githubusercontent.com/39998983/96742994-1fce6780-1389-11eb-903f-47533f1f7f1a.PNG" alt="Playing bone demo" width="80%">
+
+<p>To the right of the screen, SkeletonViewer should still be open. Right click on the window and select "Edit Script" from the dropdown menu. This will open up Visual Studio.
+<img src="https://user-images.githubusercontent.com/39998983/96744453-ab94c380-138a-11eb-96ed-7b41fde3d949.png" alt="Edit script" width="80%">
+ 
+<h4>Coding in Visual Studio</h4>
+<p>Now that we've accessed the code, follow these steps to make some changes!</p>
+<ol>
+<li>First, skim through the code and make some observations. Notice that there are a lot of lines of code highlighted in green that begin with two forward slashes, these are called <b>inline comments</b>. Inline comments are comments that are written by programmers to make code easy for other humans to understand. These comments don't affect how the code runs. Inline comments are not only helpful for other people who may view the code, but also helpful for the programmer to remember how and why they did things.<br><b>Press Ctrl + F to use the finder tool and search for the comment "Bone Prefabs"</b></li>
+<br>
+
+<li>Next, we are going to add a GameObject. In computer science, an object is basically a value in memory referenced by an identifier. You can learn more about objects <a href="https://www.khanacademy.org/computing/computer-programming/programming/objects/pt/intro-to-objects">here</a>. We are going to create a GameObject to add a bone between hand joints. Add the following code after the existing GameObjects: <code>public GameObject Prefab_LeftHand_RightHand;</code>
+<br>
+</li>
+<img src="https://user-images.githubusercontent.com/39998983/96749209-23b1b800-1390-11eb-90b0-17c8aae01217.PNG" alt="Search in finder" width="80%">
+<li><b>Press Ctrl + F again and look up the comment "Instantiate bone gameobjects."</b> We are now going to define a new bone. This will allow us to pair a bone image with bone joints in Unity. To do this, add the following code after the existing bone GameObject instantiations:<p><code>bones[18] = (GameObject)Instantiate(Prefab_LeftHand_RightHand, Vector3.zero, Quaternion.identity) as GameObject;</code></p>
+  <p><code>bones[18].name = (body.Id).ToString();</code></p>
+  <p><code>bones[18].transform.SetParent(BoneRoot);</code></p>
+  </li>
+
+
+</ol>
+
+  
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
