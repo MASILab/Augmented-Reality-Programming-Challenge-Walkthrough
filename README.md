@@ -26,6 +26,18 @@
 <p>Lastly, select the "Agree and Download" button. This will start the download and walk you through the setup process for your particular device.</p>
 <img src="https://user-images.githubusercontent.com/39998983/96674627-d6512e80-132e-11eb-8b38-cab5d00c7ef3.png" alt="Unity terms page" width="60%">
 
+<h3>AR Physiology Demo Downloads</h3>
+<p>Now it's time to choose the demo you would like to work on. There are three main AR Physiology demos to choose from. The <a href="https://github.com/MASILab/AR_Mirror_Muscle_Demo_Clean">Muscle Demo</a>, the <a href="https://github.com/MASILab/AR_Mirror_Bone_Demo_Clean">Bone Demo</a>, and the <a href="https://github.com/MASILab/AR_Mirror_Replay_Demo_Clean">Replay Demo</a>. The muscle demo will allow you to view different muscles within the body, the bone demo will allow you to view different bones within the body, and the replay demo allows you to automatically record and replay your renders. You can explore each demo and begin thinking about what demo you'd like to work on. For example, here's a preview of what the bone demo looks like:</p>
+<img src="https://user-images.githubusercontent.com/39998983/96675662-026daf00-1331-11eb-9612-c037a10bf0e7.png" alt="AR Bone demo preview" width="60%">
+
+<p>To download a demo, click on one of the links above. You can download the demo from it's Github page. Once there, select the "Code" dropdown, then "Download ZIP." Open the file and unzip it once it's downloaded.</p>
+<img src="https://user-images.githubusercontent.com/39998983/96676747-b112ef00-1333-11eb-82cc-0b8b38a90cf1.png" alt="Github download walkthrough" width="60%">
+
+<h3>Exploring the Demos in Unity</h3>
+<p>To open a demo in Unity, start by launching unity on your computer.
+
+
+
 
 
 
