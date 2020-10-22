@@ -85,6 +85,13 @@
   <p><code>bones[18].transform.SetParent(BoneRoot);</code></p>
   </li>
 
+<h2>Resources</h2>
+<ul>
+  <li>For engineering process documentation, utilize the <a href=" ">Engineering Design Process Notebook</a > as needed</li>
+  <li>Watch this video from Code.org <a href="https://youtu.be/QvyTEx1wyOY">Computer is Changing Everything</a > to learn more about the computer science revolution and why you should pursue a career in computer science</li>
+  <li>Watch <a href="https://youtu.be/O753uuutqH8">Software Engineering: Crash Course Computer Science #16</a > to learn more about software design and engineering</li>
+</ul>
+
 </ol>
 
   
