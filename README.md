@@ -79,10 +79,14 @@
 </p>
 </li>
 <img src="https://user-images.githubusercontent.com/39998983/96749209-23b1b800-1390-11eb-90b0-17c8aae01217.PNG" alt="Search in finder" width="80%">
-<li><p><b>Press Ctrl + F again and look up the comment "Instantiate bone gameobjects."</b> We are now going to define a new bone. This will allow us to pair a bone image with bone joints in Unity. To do this, add the following code after the existing bone GameObject instantiations:</p><p><code>bones[18] = (GameObject)Instantiate(Prefab_LeftHand_RightHand, Vector3.zero, Quaternion.identity) as GameObject;</code><br>
+<li><p><b>Press Ctrl + F again and look up the comment "Instantiate bone gameobjects."</b> We are now going to define a new bone. This will allow us to pair a bone image with bone joints in Unity. To do this, scroll down a little to add the following code after the existing bone GameObject instantiations:</p><p><code>bones[18] = (GameObject)Instantiate(Prefab_LeftHand_RightHand, Vector3.zero, Quaternion.identity) as GameObject;</code><br>
   <code>bones[18].name = (body.Id).ToString();</code>
  <br><code>bones[18].transform.SetParent(BoneRoot);</code></p>
+  
   </li>
+  <img src="https://user-images.githubusercontent.com/39998983/97363655-e908bd80-1870-11eb-8a1d-a7b1e053f202.PNG" alt="Search in finder" width="80%">
+  <img src="https://user-images.githubusercontent.com/39998983/97363671-f160f880-1870-11eb-8b78-ddc390712a89.PNG" alt="Define a new bone"width="80%">
+ </ol>
 
 <h2>Resources</h2>
 <ul>
@@ -91,7 +95,7 @@
   <li>Watch <a href="https://youtu.be/O753uuutqH8">Software Engineering: Crash Course Computer Science #16</a > to learn more about software design and engineering</li>
 </ul>
 
-</ol>
+
 
   
 
