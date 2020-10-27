@@ -75,11 +75,11 @@
 <ol>
 <li><p>First, skim through the code and make some observations. Notice that there are a lot of lines of code highlighted in green that begin with two forward slashes, these are called <b>inline comments</b>. Inline comments are comments that are written by programmers to make code easy for other humans to understand. These comments don't affect how the code runs. Inline comments are not only helpful for other people who may view the code, but also helpful for the programmer to remember how and why they did things.<br><br><b>Press Ctrl + F to use the finder tool and search for the comment "Bone Prefabs"</b></p></li>
 
-<li><p>Next, we are going to add a GameObject. In computer science, an object is basically a value in memory referenced by an identifier. You can learn more about objects <a href="https://www.khanacademy.org/computing/computer-programming/programming/objects/pt/intro-to-objects">here</a>. We are going to create a GameObject to add a bone between hand joints. Add the following code after the existing GameObjects:<br><code>public GameObject Prefab_LeftHand_RightHand;</code>
+<li><p>Next, we are going to add a GameObject. In computer science, an object is basically a value in memory referenced by an identifier. You can learn more about objects <a href="https://www.khanacademy.org/computing/computer-programming/programming/objects/pt/intro-to-objects">here</a>. We are going to create a GameObject to add a bone between hand joints. Add the following code after the existing GameObjects:</p><p><code>public GameObject Prefab_LeftHand_RightHand;</code>
 </p>
 </li>
 <img src="https://user-images.githubusercontent.com/39998983/96749209-23b1b800-1390-11eb-90b0-17c8aae01217.PNG" alt="Search in finder" width="80%">
-<li><b>Press Ctrl + F again and look up the comment "Instantiate bone gameobjects."</b> We are now going to define a new bone. This will allow us to pair a bone image with bone joints in Unity. To do this, add the following code after the existing bone GameObject instantiations:<br><p><code>bones[18] = (GameObject)Instantiate(Prefab_LeftHand_RightHand, Vector3.zero, Quaternion.identity) as GameObject;</code><br>
+<li><p><b>Press Ctrl + F again and look up the comment "Instantiate bone gameobjects."</b> We are now going to define a new bone. This will allow us to pair a bone image with bone joints in Unity. To do this, add the following code after the existing bone GameObject instantiations:</p><p><code>bones[18] = (GameObject)Instantiate(Prefab_LeftHand_RightHand, Vector3.zero, Quaternion.identity) as GameObject;</code><br>
   <code>bones[18].name = (body.Id).ToString();</code>
  <br><code>bones[18].transform.SetParent(BoneRoot);</code></p>
   </li>
