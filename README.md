@@ -7,13 +7,13 @@
 <img src="https://www.teachengineering.org/Images/edpHub/EDPHub_Graphic.png" alt="The engineering design process" width="50%">
 
 <h2>Materials, Download & Installation</h2>
+<p><b>NOTE: This project is only compatible with Windows operating systems<b></p>
 <p>To begin working on this project, you will need a computer to access certain software. You will also need an <a href="http://shop.orbbec3d.com/Astra-Pro_p_35.html">Orbbec Astra Pro Camera</a>. The following intructions provide a step by step walkthrough on the download/installation process for the software you'll be using.</p>
 
 <h3>Microsoft Visual Studio 2017(or later)</h3>
-<p>This is where you will build your code. Micrsoft Visual Studio 2017(or later) is available <a href="https://visualstudio.microsoft.com/free-developer-offers/">here</a>. Once there, click the relevant download according to your operating system. For example, if you have a Windows computer, download Visual Studio Community for Windows. You can access more detailed download instructions for each operating system below:</p>
+<p>This is where you will build your code. Micrsoft Visual Studio 2017(or later) is available <a href="https://visualstudio.microsoft.com/free-developer-offers/">here</a>. Once there, click the relevant download according to your operating system. For example, if you have a Windows computer, download Visual Studio Community for Windows. You can access more detailed download instructions below:</p>
 <ul>
   <li><a href="https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019">Windows</a></li>
-  <li><a href="https://docs.microsoft.com/en-us/visualstudio/mac/installation?view=vsmac-2019"<li>macOS</li></a>
 </ul>
 
 <h3>Download Unity v. 2018.2.9(or later)</h3>
@@ -85,9 +85,11 @@
   
   </li>
   <img src="https://user-images.githubusercontent.com/39998983/97363655-e908bd80-1870-11eb-8a1d-a7b1e053f202.PNG" alt="Search in finder" width="80%">
-  <img src="https://user-images.githubusercontent.com/39998983/97363671-f160f880-1870-11eb-8b78-ddc390712a89.PNG" alt="Define a new bone"width="80%">
+  <img src="https://user-images.githubusercontent.com/39998983/97363671-f160f880-1870-11eb-8b78-ddc390712a89.PNG" alt="Define a new bone" width="80%">
   <li><p>Now we're goint to define connecting points for our bone. We want to connect our bone between the left and right handjoints. To do this, <b>press Ctrl + F again and look up the comment "summary"</b> under this commment you will find several connecting points already defined. Define your connecting points by adding the following code underneath the existing joint connectors. Be sure to add a comment before the line of code explaining what connecting points you're defining!</p><p><code>new Bone(Astra.JointType.LeftHand, Astra.JointType.RightHand),</code></p></li>
-   <img src="https://user-images.githubusercontent.com/39998983/97390291-6dc3fd80-18aa-11eb-8e4f-e0e1c2df6b2d.PNG" alt="Define joint connectors"width="80%">
+   <img src="https://user-images.githubusercontent.com/39998983/97390291-6dc3fd80-18aa-11eb-8e4f-e0e1c2df6b2d.PNG" alt="Define joint connectors" width="80%">
+   <li><p>Lastly, we need to attach our changes to Unity so that we can attach the bone image we'd like between hand joints. To do this, <b>click the button towards the top that says "Attach to Unity"</b> if there are any syntax errors, Visual Studio will flag them. If this happens, look back at the previous steps to make sure you input everything correctly!</p></li>
+ <img src="https://user-images.githubusercontent.com/39998983/97391563-7a962080-18ad-11eb-8ccc-385a2e28431a.PNG" alt="Attach to Unity" width="80%">
  
  </ol>
 
