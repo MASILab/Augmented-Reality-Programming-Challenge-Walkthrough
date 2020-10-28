@@ -89,9 +89,21 @@
   <li><p>Now we're goint to define connecting points for our bone. We want to connect our bone between the left and right handjoints. To do this, <b>press Ctrl + F again and look up the comment "summary"</b> under this commment you will find several connecting points already defined. Define your connecting points by adding the following code underneath the existing joint connectors. Be sure to add a comment before the line of code explaining what connecting points you're defining!</p><p><code>new Bone(Astra.JointType.LeftHand, Astra.JointType.RightHand),</code></p></li>
    <img src="https://user-images.githubusercontent.com/39998983/97390291-6dc3fd80-18aa-11eb-8e4f-e0e1c2df6b2d.PNG" alt="Define joint connectors" width="80%">
    <li><p>Lastly, we need to attach our changes to Unity so that we can attach the bone image we'd like between hand joints. To do this, <b>click the button towards the top that says "Attach to Unity"</b> if there are any syntax errors, Visual Studio will flag them. If this happens, look back at the previous steps to make sure you input everything correctly!</p></li>
- <img src="https://user-images.githubusercontent.com/39998983/97391563-7a962080-18ad-11eb-8ccc-385a2e28431a.PNG" alt="Attach to Unity" width="80%">
+ <img src="https://user-images.githubusercontent.com/39998983/97391563-7a962080-18ad-11eb-8ccc-385a2e28431a.PNG" alt="Attach to Unity" width="100%">
  
  </ol>
+ 
+<h3>Viewing Your Render</h3>
+<p>Back in Unity, the renderer has been updated. We now have a new option to add an image! Click on the tiny circular icon to the right of the new option. This will open the image folder so that we can select the bone we'd like to attach between the left and right hand joints.</p>
+<img src="https://user-images.githubusercontent.com/39998983/97394988-f85c2b00-18b1-11eb-95aa-08472480e613.PNG" alt="Attach to Unity" width="80%">
+<p>Next, select a bone image for your render. For the puposes of this walkthrough, we selected "Test_FemurL."</p>
+<img src="https://user-images.githubusercontent.com/39998983/97395466-052d4e80-18b3-11eb-93fa-23a293e10fdb.png" alt="Select bone image" width="80%">
+<p>Now you should be able to view the new bone in your render! Switch back to the "Game" tab and press the play button. Notice how there's a new bone connecting the left and right hand joints!</p>
+<img src="https://user-images.githubusercontent.com/39998983/97395938-0f038180-18b4-11eb-9187-9167b7a000be.png" alt="Render before and after" width="100%">
+
+
+
+
 
 <h2>Resources</h2>
 <ul>
