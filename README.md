@@ -79,13 +79,16 @@
 </p>
 </li>
 <img src="https://user-images.githubusercontent.com/39998983/96749209-23b1b800-1390-11eb-90b0-17c8aae01217.PNG" alt="Search in finder" width="80%">
-<li><p><b>Press Ctrl + F again and look up the comment "Instantiate bone gameobjects."</b> We are now going to define a new bone. This will allow us to pair a bone image with bone joints in Unity. To do this, scroll down a little to add the following code after the existing bone GameObject instantiations:</p><p><code>bones[18] = (GameObject)Instantiate(Prefab_LeftHand_RightHand, Vector3.zero, Quaternion.identity) as GameObject;</code><br>
+<li><p><b>Press Ctrl + F again and look up the comment "Instantiate bone gameobjects"</b> we are now going to define a new bone. This will allow us to pair a bone image with bone joints in Unity. To do this, scroll down a little to add the following code after the existing bone GameObject instantiations:</p><p><code>bones[18] = (GameObject)Instantiate(Prefab_LeftHand_RightHand, Vector3.zero, Quaternion.identity) as GameObject;</code><br>
   <code>bones[18].name = (body.Id).ToString();</code>
  <br><code>bones[18].transform.SetParent(BoneRoot);</code></p>
   
   </li>
   <img src="https://user-images.githubusercontent.com/39998983/97363655-e908bd80-1870-11eb-8a1d-a7b1e053f202.PNG" alt="Search in finder" width="80%">
   <img src="https://user-images.githubusercontent.com/39998983/97363671-f160f880-1870-11eb-8b78-ddc390712a89.PNG" alt="Define a new bone"width="80%">
+  <li><p>Now we're goint to define connecting points for our bone. We want to connect our bone between the left and right handjoints. To do this, <b>press Ctrl + F again and look up the comment "summary"</b> under this commment you will find several connecting points already defined. Define your connecting points by adding the following code underneath the existing joint connectors. Be sure to add a comment before the line of code explaining what connecting points you're defining!</p><p><code>new Bone(Astra.JointType.LeftHand, Astra.JointType.RightHand),</code></p></li>
+   <img src="https://user-images.githubusercontent.com/39998983/97390291-6dc3fd80-18aa-11eb-8e4f-e0e1c2df6b2d.PNG" alt="Define joint connectors"width="80%">
+ 
  </ol>
 
 <h2>Resources</h2>
