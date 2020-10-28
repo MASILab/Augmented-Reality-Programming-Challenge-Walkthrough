@@ -11,10 +11,8 @@
 <p>To begin working on this project, you will need a computer to access certain software. You will also need an <a href="http://shop.orbbec3d.com/Astra-Pro_p_35.html">Orbbec Astra Pro Camera</a>. The following intructions provide a step by step walkthrough on the download/installation process for the software you'll be using.</p>
 
 <h3>Microsoft Visual Studio 2017(or later)</h3>
-<p>This is where you will build your code. Micrsoft Visual Studio 2017(or later) is available <a href="https://visualstudio.microsoft.com/free-developer-offers/">here</a>. Once there, click the relevant download according to your operating system. For example, if you have a Windows computer, download Visual Studio Community for Windows. You can access more detailed download instructions below:</p>
-<ul>
-  <li><a href="https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019">Windows</a></li>
-</ul>
+<p>This is where you will build your code. Micrsoft Visual Studio 2017(or later) is available <a href="https://visualstudio.microsoft.com/free-developer-offers/">here</a>. Once there, click the relevant download according to your operating system. For example, if you have a Windows computer, download Visual Studio Community for Windows. You can access more detailed download instructions <a href="https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019">here</a>.</p>
+
 
 <h3>Download Unity v. 2018.2.9(or later)</h3>
 <p>Unity is where we will build our demos. It has the ability to create screens and a variety of other useful features. You can download Unity <a href="https://store.unity.com/#plans-individual">here</a>. On the 'Individual' tab, you can select the student or personal plan. For the purposes of this walkthrough, we'll select the 'Personal' plan.</p>
