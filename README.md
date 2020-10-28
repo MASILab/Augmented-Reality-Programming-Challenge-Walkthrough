@@ -7,7 +7,7 @@
 <img src="https://www.teachengineering.org/Images/edpHub/EDPHub_Graphic.png" alt="The engineering design process" width="50%">
 
 <h2>Materials, Download & Installation</h2>
-<p><b>NOTE: This project is only compatible with Windows operating systems<b></p>
+<p><b>NOTE: This project is only compatible with Windows operating systems</b></p>
 <p>To begin working on this project, you will need a computer to access certain software. You will also need an <a href="http://shop.orbbec3d.com/Astra-Pro_p_35.html">Orbbec Astra Pro Camera</a>. The following intructions provide a step by step walkthrough on the download/installation process for the software you'll be using.</p>
 
 <h3>Microsoft Visual Studio 2017(or later)</h3>
