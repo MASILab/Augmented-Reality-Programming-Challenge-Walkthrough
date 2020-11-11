@@ -41,11 +41,18 @@
 <h3>Orbbec Camera Driver</h3>
 <p>Lastly, once you have your <a href="http://shop.orbbec3d.com/Astra-Pro_p_35.html">Orbbec Astra Pro Camera</a>, you'll need to install the Orbbec Camera Driver. You can download the driver <a href="https://orbbec3d.com/develop/">here</a>.</p>
 
-<h2>Warm Up: Exploring the Bone Demo</h2>
-<p>Now that you've got your software downloaded and your camera plugged in, you're ready to explore one of the demos! To open a demo in Unity, start by launching Unity on your computer. Launching Unity should open a Window that looks like the image below. Go ahead and select "Open."</p>
+<h2>Warm Up: Exploring the Demos</h2>
+<p>Now that you've got your software downloaded and your camera plugged in, you're ready to explore the demos! To open a demo in Unity, start by launching Unity on your computer. Launching Unity should open a Window that looks like the image below. Go ahead and select "Open."</p>
 <img src="https://user-images.githubusercontent.com/39998983/96723925-cd834b80-1374-11eb-9b24-b45f20d2f84b.PNG" alt="Open project in Unity" width="80%">
 
-<p>Next, we'll select the demo we'd like to work with. Make sure you have the <a href="https://github.com/MASILab/AR_Mirror_Bone_Demo_Clean">AR Bone Demo</a> file downloaded. Open this demo by selecting its file.</p>
+<p>Next, we'll select the demo we'd like to work with. </p>
+
+
+<h3>The Bone Demo</h3>
+<p>We will explore the bone demo first!<p/>
+
+<h4>Getting started</h4>
+<p>Make sure you have the <a href="https://github.com/MASILab/AR_Mirror_Bone_Demo_Clean">AR Bone Demo</a> file downloaded. Open this demo by selecting its file.<p/>
 <img src="https://user-images.githubusercontent.com/39998983/96725391-72eaef00-1376-11eb-9cc6-c813a2e648f6.PNG" alt="File explorer window" width="80%">
 
 <p>Your screen will look similar to the screen below. To see the demo in action, navigate to the 'Assets' folder towards the bottom left. Within the 'Assets' folder, navigate into the 'Scenes' folder.</p>
@@ -57,7 +64,7 @@
 <p>Navigate over to the "Game" tab and select the play button to start the game! You'll be able to see the bone-overlay on your screen in real time! Try to get the bones from your head to your feet showing by moving so that your whole body is in view. As you move, make observations about what you see.</p>
 <img src="https://user-images.githubusercontent.com/39998983/96731249-a92b6d00-137c-11eb-9988-55055cccc037.PNG" alt="Playing bone demo" width="80%">
 
-<h3>Diving Into the Code</h3>
+<h4>Diving Into the Code</h4>
 <p>Let's take a look at the code for this demo and try adding another bone overlay. Start by opening the "SkeletonViewer." You'll see that a panel opens to the right where you can view what bone images are linked to specific joints.</p>
 <img src="https://user-images.githubusercontent.com/39998983/96733226-d2e59380-137e-11eb-9f04-d95f26c25b51.PNG" alt="Playing bone demo" width="80%">
 <p>The Orbbec camera recognizes each of the following labeled joints.</p>
@@ -68,7 +75,7 @@
 <p>To the right of the screen, SkeletonViewer should still be open. Right click on the window and select "Edit Script" from the dropdown menu. This will open up Visual Studio.
 <img src="https://user-images.githubusercontent.com/39998983/96744453-ab94c380-138a-11eb-96ed-7b41fde3d949.png" alt="Edit script" width="80%">
  
-<h4>Coding in Visual Studio</h4>
+<h5>Coding in Visual Studio</h5>
 <p>Now that we've accessed the code, follow these steps to make some changes!</p>
 <ol>
 <li><p>First, skim through the code and make some observations. Notice that there are a lot of lines of code highlighted in green that begin with two forward slashes, these are called <b>inline comments</b>. Inline comments are comments that are written by programmers to make code easy for other humans to understand. These comments don't affect how the code runs. Inline comments are not only helpful for other people who may view the code, but also helpful for the programmer to remember how and why they did things.<br><br><b>Press Ctrl + F to use the finder tool and search for the comment "Bone Prefabs"</b></p></li>
@@ -91,13 +98,26 @@
  
  </ol>
  
-<h3>Viewing Your Render</h3>
+<h4>Viewing Your Render</h4>
 <p>Back in Unity, the renderer has been updated. We now have a new option to add an image! Click on the tiny circular icon to the right of the new option. This will open the image folder so that we can select the bone we'd like to attach between the left and right hand joints.</p>
 <img src="https://user-images.githubusercontent.com/39998983/97394988-f85c2b00-18b1-11eb-95aa-08472480e613.PNG" alt="Attach to Unity" width="80%">
 <p>Next, select a bone image for your render. For the puposes of this walkthrough, we selected "Test_FemurL."</p>
 <img src="https://user-images.githubusercontent.com/39998983/97395466-052d4e80-18b3-11eb-93fa-23a293e10fdb.png" alt="Select bone image" width="80%">
 <p>Now you should be able to view the new bone in your render! Switch back to the "Game" tab and press the play button. Notice how there's a new bone connecting the left and right hand joints!</p>
 <img src="https://user-images.githubusercontent.com/39998983/97395938-0f038180-18b4-11eb-9187-9167b7a000be.png" alt="Render before and after" width="100%">
+
+<h3>The Muscle Demo</h3>
+<p>We just tried adding bones to the bone demo. Now let's try adding muscles to the muscle demo!</p>
+<p>It should be really easy to add muscles since we have learned how to add bones. The concept is the same, the only difference is to replace the bone prefab we used with a muscle prefab. You can add the muscle to a different body part. But for simplicity, we will add a muscle to the same place as our example in the bone demo: between the left hand and the right hand.</p>
+
+<h4>Getting started</h4>
+<p>We have done this in the bone demo, please repeat the process. This time, open the muscle demo you have downloaded from github and navigate to Assets/Scenes/MuscleDemo.<p/>
+
+<h4>Diving Into the Code</h4>
+<p>You can try adding the muscle to a different body part, but we will add it in between the left hand and right hand again for this example. Please repeat the exact same process as we did from the previous bone demo example: adding a GameObject, instantiating the new GameObject, connecting points for the GameObject.<p/>
+
+<h4>Viewing Your Render</h4>
+
 
 
 
