@@ -121,12 +121,12 @@
 <img src="https://user-images.githubusercontent.com/51566827/98843197-97258180-2485-11eb-9b08-3b2d39e9ce59.jpg">
 
 <p>Hit the play button, now you should be able to see a muscle connecting the left and the right hand!<p/>
-<img src="https://github.com/MASILab/Augmented-Reality-Programming-Challenge-Walkthrough/issues/3#issuecomment-726108442">
+<img src="https://user-images.githubusercontent.com/51566827/98953117-3b1b3580-2537-11eb-8215-598ca43de380.jpg">
 
 <h3>The Replay Demo</h3>
 <p>When you enter the play mode of this demo, you will see texts appearing on the screen. We will modify them in this example.<p/>
 <p>Navigate to Assets/Scenes/Record and open it. In your hierachy window, expand FPSCanvas and then expand CountdownTimer. Click on Text, you can change several things in the inspector. For example, you can change "Recording" to a different text, you can change the font, you can also change the color. Click on Display and MessageOnPause, you will be able to do the same! As you can see from the image below, I changed the color of the text from red to blue. Explore the options in the inspector, design your own UI for the demo!
- <img src="https://github.com/MASILab/Augmented-Reality-Programming-Challenge-Walkthrough/issues/3#issuecomment-726108586">
+ <img src="https://user-images.githubusercontent.com/51566827/98953117-3b1b3580-2537-11eb-8215-598ca43de380.jpg">
 
 
 
