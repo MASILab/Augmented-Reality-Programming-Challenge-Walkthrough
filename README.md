@@ -72,7 +72,7 @@
 <p>Look in the bottom left panel where you accessed the "Assets" folder. Inside the "Assets" folder, navigate to the "Prefabs" folder, then the "3D_BODY_Bones" folder. Here you can view and add 3D bone overlay images, we'll use one of these images shortly.</p>
 <img src="https://user-images.githubusercontent.com/39998983/96742994-1fce6780-1389-11eb-903f-47533f1f7f1a.PNG" alt="Playing bone demo" width="80%">
 
-<p>To the right of the screen, SkeletonViewer should still be open. Right click on the window and select "Edit Script" from the dropdown menu. This will open up Visual Studio.
+<p>To the right of the screen, SkeletonViewer should still be open. Right click on the window and select "Edit Script" from the dropdown menu. This will open up Visual Studio.</p>
 <img src="https://user-images.githubusercontent.com/39998983/96744453-ab94c380-138a-11eb-96ed-7b41fde3d949.png" alt="Edit script" width="80%">
  
 <h5>Coding in Visual Studio</h5>
