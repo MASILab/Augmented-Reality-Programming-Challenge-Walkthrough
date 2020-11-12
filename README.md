@@ -118,7 +118,7 @@
 
 <h4>Viewing Your Render</h4>
 <p>Again, we have a new option at the bottom of the inspector. Now let's apply a material to it. Instead of selecting a bone prefab, let's go to Assets/Prefabs/3D_BODY_MS and drag a muscle prefab you like to the material choice box of the Prefab_Left Hand_Right Hand at the bottom of the inspector.<p/>
-<img src="https://github.com/MASILab/Augmented-Reality-Programming-Challenge-Walkthrough/issues/3#issuecomment-725552927">
+<img src="https://user-images.githubusercontent.com/51566827/98843197-97258180-2485-11eb-9b08-3b2d39e9ce59.jpg">
 
 <p>Hit the play button, now you should be able to see a muscle connecting the left and the right hand!<p/>
 <img src="https://github.com/MASILab/Augmented-Reality-Programming-Challenge-Walkthrough/issues/3#issuecomment-726108442">
