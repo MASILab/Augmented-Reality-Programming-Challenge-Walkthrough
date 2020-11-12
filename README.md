@@ -121,7 +121,7 @@
 <img src="https://user-images.githubusercontent.com/51566827/98843197-97258180-2485-11eb-9b08-3b2d39e9ce59.jpg">
 
 <p>Hit the play button, now you should be able to see a muscle connecting the left and the right hand!<p/>
-<img src="https://user-images.githubusercontent.com/51566827/98953117-3b1b3580-2537-11eb-8215-598ca43de380.jpg">
+<img src="https://user-images.githubusercontent.com/51566827/98952977-0effb480-2537-11eb-97dd-ae871e8b9676.jpg">
 
 <h3>The Replay Demo</h3>
 <p>When you enter the play mode of this demo, you will see texts appearing on the screen. We will modify them in this example.<p/>
