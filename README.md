@@ -117,12 +117,16 @@
 <p>You can try adding the muscle to a different body part, but we will add it in between the left hand and right hand again for this example. Please repeat the exact same process as we did from the previous bone demo example: adding a GameObject, instantiating the new GameObject, connecting points for the GameObject.<p/>
 
 <h4>Viewing Your Render</h4>
-<p>Again, we have a new option at the bottom of the inspector. Now let's apply a material to it. Instead of selecting a bone prefab, let's go to Assets/Prefabs/3D_BODY_MS and drag a muscle prefab you like to the material choice box of the Prefab_Left Hand_Right Hand at the bottom of the inspector. Hit the play button, now you should be able to see a muscle connecting the left and the right hand!<p/>
+<p>Again, we have a new option at the bottom of the inspector. Now let's apply a material to it. Instead of selecting a bone prefab, let's go to Assets/Prefabs/3D_BODY_MS and drag a muscle prefab you like to the material choice box of the Prefab_Left Hand_Right Hand at the bottom of the inspector.<p/>
+<img src="https://github.com/MASILab/Augmented-Reality-Programming-Challenge-Walkthrough/issues/3#issuecomment-725552927">
 
+<p>Hit the play button, now you should be able to see a muscle connecting the left and the right hand!<p/>
+<img src="https://github.com/MASILab/Augmented-Reality-Programming-Challenge-Walkthrough/issues/3#issuecomment-726108442">
 
 <h3>The Replay Demo</h3>
 <p>When you enter the play mode of this demo, you will see texts appearing on the screen. We will modify them in this example.<p/>
 <p>Navigate to Assets/Scenes/Record and open it. In your hierachy window, expand FPSCanvas and then expand CountdownTimer. Click on Text, you can change several things in the inspector. For example, you can change "Recording" to a different text, you can change the font, you can also change the color. Click on Display and MessageOnPause, you will be able to do the same! As you can see from the image below, I changed the color of the text from red to blue. Explore the options in the inspector, design your own UI for the demo!
+ <img src="https://github.com/MASILab/Augmented-Reality-Programming-Challenge-Walkthrough/issues/3#issuecomment-726108586">
 
 
 
